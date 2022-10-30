@@ -1,0 +1,112 @@
+
+
+
+.buyers-sidebar {
+  width: 90%;
+  position: sticky;
+  top: 96px;
+  left: 0;
+  z-index: 999;
+color: white;
+}
+
+
+.buyers-sidebar-heading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.buyers-options {
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: white ;
+  text-decoration: none;
+}
+.buyers-options.active-opn {
+  background: white;
+  color: black;
+}
+
+
+.callbtn {
+  position: absolute;
+  top: 102px;
+  right: -50px;
+  background: none;
+  border: 2px solid;
+  width: 50px;
+  height: 50px;
+  border-radius:0 11px 11px 0;
+  background: white;
+  border: 2px solid #006FF2;
+  color: #006FF2;
+  background: transparent;
+  cursor: pointer;
+  display: none;
+}
+.callbtn-i{
+  transition: transfrom 0.4s ease;
+}
+.callbtn.active-callbtn .callbtn-i{
+  transform: rotate(133deg);
+}
+
+@media screen and (max-width: 700px) {
+  .callbtn{
+    display: block;
+  }
+
+  .buyers-sidebar {
+    width: 100%;
+    position: fixed;
+    top: 77px;
+    left: -250px;
+    z-index: 997;
+    background: white;
+    height: 100%;
+    box-shadow: 0px -5px 6px rgb(0 0 0 / 50%);
+    width: 228px;
+    height: 100%;
+    padding: 10px;
+    transition: 0.2s ease;
+    color: black;
+  }
+    .buyers-options {
+      color: rgb(0, 0, 0) ;
+    }
+    .buyers-options.active-opn {
+      background:#006FF2;
+      color: white;
+    }
+
+
+
+}
+
+.hehe-form{
+    margin-right: 0 !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    width: fit-content !important;
+    padding-left: 9px !important;
+    margin-top: 70px !important;
+}
+
+.hehe-form .css-113qkos-MuiSwitch-root .MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: #006ff2;
+}
+
+@media screen and (max-width:700px){
+  .hehe-form{
+    padding-left: 29px !important;
+  }
+}

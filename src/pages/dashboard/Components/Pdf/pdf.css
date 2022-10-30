@@ -1,0 +1,42 @@
+.pdf-card {
+  width: max-content;
+  margin: 20px ;
+}
+.pdf-header {
+  width: 222px;
+  height: 270px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #27a7de;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+  border-radius: 9px;
+}
+.pdf-details {
+  margin: 15px 0 20px;
+  text-align: center;
+}
+.pdf-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.pdf-size {
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.pdf-details button {
+  font-family: inherit;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-weight: 600;
+    color: white;
+    background: #006FF2;
+    margin-inline: auto;
+    display: block;
+}

@@ -1,0 +1,63 @@
+.filter-heading {
+  margin: 15px 10px 15px 22px;
+  font-size: 18px;
+}
+
+.accordian {
+  margin: 10px;
+}
+
+.accordian-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  font-size: 15px;
+  background-color: #006FF2;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+.accordian-btn div {
+  display: flex;
+  align-items: center;
+}
+
+.btn-icons {
+  margin-right: 5px !important;
+}
+
+.accordian-data {
+  margin-top: 13px;
+  background: #f1f1f1;
+  /* padding: 10px; */
+  border-radius: 100px + calc(0);
+  transition: height 0.2s ease;
+  border-radius: 8px;
+}
+
+.ad-con{
+padding: 10px;
+height: max-content;
+}
+
+.accordian-form {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  /* margin-bottom: 10px; */
+}
+.accordian-form input {
+}
+.accordian-form label {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+
+.rotated{
+  transform: rotate(180deg);
+  transition: transform 0.4s ease !important;
+}

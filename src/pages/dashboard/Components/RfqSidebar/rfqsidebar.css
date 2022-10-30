@@ -1,0 +1,12 @@
+ .rfqsidebar{
+    color: black !important;
+}
+
+.rfqsidebar .buyers-options{
+    color: black !important;
+}
+
+.rfqsidebar .active-opn{
+    color: white !important;
+    background: #006FF2 !important;
+}

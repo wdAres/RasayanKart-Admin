@@ -1,0 +1,31 @@
+.regi-form-left {
+    border-radius: 16px;
+    width: 50%;
+    background: #006ae8;
+    box-shadow: 0 0 7px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.regi-form-left h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 10px 0 5px;
+    margin-inline: auto;
+    width: 250px;
+}
+.regi-form-left p {
+    font-size: 0.8rem;
+    color: white;
+    width: 250px;
+    /* margin: auto; */
+}
+
+.regi-form-left img{
+    width: 80%;
+    /* margin: auto; */
+    display: block;
+}

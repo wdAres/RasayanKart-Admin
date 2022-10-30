@@ -1,0 +1,42 @@
+.checkout-done {
+    flex-direction: column;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-align: center;
+    width: 560px;
+    margin: auto;
+}
+
+.cd-top{}
+.cd-top img{}
+.cd-top h1{}
+.cd-top p{}
+.cd-bottom{}
+
+.cd-bottom .cd-bottom-c {
+        margin-left: 10px;
+        height: 30px;
+        width: 220px;
+        border-radius: 6px;
+        font-weight: 600;
+        color: white;
+        border: 2px solid #006FF2;
+        cursor: pointer;
+        background: #006FF2;
+        font-family: inherit;
+        text-decoration: none;
+        display: inline-grid;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+
+@media screen and (max-width:600px){
+    .checkout-done {
+        width: 80%;
+    }
+}

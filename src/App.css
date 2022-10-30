@@ -1,0 +1,114 @@
+button {
+  cursor: pointer;
+  text-decoration: none !important;
+  font-family: inherit;
+  font-style: inherit;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.df {
+  display: flex;
+}
+.aic {
+  align-items: center;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.jcb {
+  justify-content: space-between;
+}
+
+.cart-p {
+  padding: 10px 35px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.tc {
+  text-align: center;
+}
+
+.m-20 {
+  margin: 20px 0;
+}
+
+.mt0 {
+  margin-top: 0 !important;
+}
+
+.btn-con {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.backbtn-g {
+  border: 2px solid #006ff2;
+  color: #006ff2;
+  font-weight: 500;
+  width: 150px;
+  margin-right: 10px;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.conbtn-g {
+  border: 2px solid #006ff2;
+  background-color: #006ff2;
+  color: white;
+  font-weight: 500;
+  width: 150px;
+  margin-right: 10px;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.dnd {
+  display: inline-flex !important;
+}
+
+.dn{
+  display: none;
+}
+
+input[type="radio"] {
+  border: 1px solid #fff;
+  /* padding: 0.5em; */
+  height: 15px ;
+  width: 15px;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 0;
+}
+
+input[type="radio"]:checked {
+  background: #006ff2;
+  background-size: 9px 9px;
+}
+
+input[type="radio"]:focus {
+  outline-color: transparent;
+}

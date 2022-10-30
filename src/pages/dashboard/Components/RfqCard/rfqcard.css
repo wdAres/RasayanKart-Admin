@@ -1,0 +1,38 @@
+.rfq-card {
+    /* width: 100%; */
+    background: #F4F4F4;
+    padding: 17px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+.rfq-card div {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.rfq-card strong {
+    margin-right: 10px;
+}
+.rfq-card button, 
+.rfq-card a{
+    width: 100px;
+    height: 27px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: #006FF2;
+    font-weight: 500;
+    margin-left: auto;
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: right;
+}
+
+@media screen and (max-width:700px){
+    /* .rfq-card {
+        width: 100%;
+    } */
+}

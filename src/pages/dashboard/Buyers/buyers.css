@@ -1,0 +1,354 @@
+section.buyers-section {
+  background: #042d5f;
+  min-height: 100vh;
+}
+
+.buyers-section-div {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+  padding: 50px 0;
+}
+.bsd-left {
+  width: 19%;
+}
+
+.bsd-right {
+  width: 81%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buyers-profile-box {
+  /* padding: 0 20px; */
+  margin-left: auto;
+}
+
+/* BUYERS PROFILE PAGE */
+
+.buyers-profile-banner {
+  width: 100%;
+  height: 183px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+.buyers-profile-banner img {
+  height: 100%;
+  width: 100%;
+}
+.buyers-dp {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #dfdfdf;
+  position: relative;
+  top: -59px;
+  left: 50px;
+}
+.buyers-name {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 20px;
+  padding-left: 53px;
+  margin-top: -40px;
+}
+
+.edit-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #006ff2;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.greybox {
+  color: gray;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-left: 55px;
+}
+
+.greybox-i {
+  color: rgb(223, 223, 223);
+  margin-right: 13px;
+}
+
+/* BUYERS HISTORY PAGE */
+
+.history-container {
+  /* width: 80%; */
+  margin: auto;
+}
+
+.history-btn {
+  margin: 20px 0 20px auto;
+  display: block;
+  width: 154px;
+  height: 33px;
+  border-radius: 7px;
+  background: #006ff2;
+  border: none;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BUYERS DOCUMENTS */
+
+.bd-sec {
+  display: inline-flex;
+  position: relative;
+  margin-inline: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  /* width: 90%; */
+}
+
+/* BUYERS RFQ'S */
+
+.rfq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.active-sidebar {
+  left: 0 !important;
+}
+
+/* BUYERS RFQ DETAILS */
+
+.rfqdh-c {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.rfqdh-c:first-child {
+  margin-right: 20px;
+}
+.gt {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+.bt {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: #dedbdb;
+}
+
+@media screen and (max-width: 1100px) {
+  .buyers-section-div {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .greybox {
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+  }
+  .bsd-left {
+    position: unset;
+    width: unset;
+  }
+
+  .bsd-right {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  .buyers-section-div {
+    width: 100%;
+  }
+
+  .buyers-name {
+    padding-left: 9px;
+  }
+
+  .bd-sec {
+    justify-content: center;
+  }
+}
+
+.rit-table-container {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.rit-header {
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f3;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px 7px 0 0;
+}
+.rit-left {
+  width: 70%;
+}
+.rit-right {
+  width: 28%;
+}
+.rit-body {
+  padding: 10px;
+  background: #f3f3f3;
+  margin-top: 10px;
+  min-height: 60px;
+}
+.rit-body > h2 {
+  margin: 0px 0 10px;
+  font-size: 20px;
+}
+.link {
+  font-size: 11px;
+  font-weight: 600;
+  color: #0067e1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.rit-body .rit-left-divs {
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+}
+.rit-body .rit-left-divs:last-child {
+  text-align: end;
+}
+.rit-body .rit-left-divs div {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.rit-body .rit-left-divs p {
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+  margin: 5px 0;
+}
+
+.rit2-table {
+  margin: 30px 0 10px;
+}
+.rit2-header {
+  display: flex;
+}
+.rit2-header > div {
+  font-weight: 500;
+  font-size: 14px;
+  width: 34%;
+}
+.rit2-body {
+  display: flex;
+}
+.rit2-block {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  width: 34%;
+  margin: 10px 0 30px;
+}
+
+.rit3-table {
+  margin: 15px 0 25px;
+  width: 100%;
+}
+.rit3-header {
+  display: flex;
+  background: #f3f3f3;
+  padding: 14px;
+  border-radius: 7px 7px 0 0;
+}
+.rit3-header > div {
+  width: 20%;
+  font-weight: 500;
+  font-size: 16px;
+}
+.rit3-row {
+  display: flex;
+  padding: 14px;
+}
+.rit3-info {
+  width: 20%;
+}
+
+.bb-btn {
+  color: #0067e1;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width:700px){
+
+} */
+
+@media screen and (max-width: 660px) {
+  .bw-container {
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .bw-container > .rit3-table {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .rit-table-container {
+    flex-direction: column;
+  }
+
+  .rit-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .rit-right {
+    width: 100%;
+  }
+  .rit-body {
+    min-height: 60px;
+  }
+
+  .gt {
+    font-size: 17px;
+  }
+
+  .rit3-table {
+    width: 500px;
+  }
+
+  .rti3-parent {
+    overflow-x: scroll;
+  }
+}
+
+
+.swallet{
+  margin-top: 30px;
+  display: block;
+}

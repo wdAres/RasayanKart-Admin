@@ -1,0 +1,322 @@
+.bhd-header {
+  margin-bottom: 20px;
+}
+.bhd-heading {
+  font-weight: 500;
+  color: gray;
+}
+
+.bhd-sub-heading {
+  margin: 20px 0;
+  display: block;
+}
+button.bhd-header-btn {
+  color: white;
+  background: #006ff2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 35px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-family: inherit;
+  width: 127px;
+}
+.delivery-status-box {
+  padding: 20px;
+  margin: 10px 0;
+  background: #f3f3f3;
+  border-radius: 9px;
+}
+
+.delivery-status {
+  display: flex;
+  align-items: baseline;
+}
+.ds-box {
+  text-align: center;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ds-box-img {
+  width: 70px;
+  height: 70px;
+  margin-inline: auto;
+  background: #006ff2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.ds-box-img img {
+  height: 24px;
+  width: auto;
+}
+.ds-heading {
+  font-size: 13px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.ds-date {
+  height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #a2a2a2;
+}
+
+.connector {
+  width: 22%;
+  height: 6px;
+  background: #e9e6e6;
+  position: relative;
+  top: -8px;
+}
+.acive-connector {
+  background: #006ff2;
+}
+
+.log-box {
+  margin-top: 20px;
+}
+.log-box strong {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 17px;
+}
+.log-box .log-line {
+  font-size: 13px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #555252;
+  font-family: inherit;
+}
+.log-box .log-line span {
+  margin-left: 20px;
+}
+
+/* DOC */
+
+.bhd-doc-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bhd-doc {
+  width: 100px;
+  background: #f3f3f3;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px 10px 0;
+}
+.bhd-doc img {
+  width: 22px;
+  margin: 10px 0 15px;
+}
+.doc-name {
+  font-weight: bold;
+}
+.doc-size {
+  font-size: 11px;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #7b7b7b;
+}
+
+.doc-btn {
+  width: 100%;
+  background: #006ff2;
+  color: white;
+  font-weight: 500;
+  font-style: inherit;
+  font-family: inherit;
+  border: none;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.spl-list-c {
+  width: 50%;
+}
+.spl-list-t {
+  font-weight: 500;
+  font-size: 14px;
+  color: #535252;
+}
+.spl-list-ul {
+  list-style: none;
+  padding-left: 0;
+}
+.spl-list-li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5e5d5d;
+}
+.spl-list-li > div {
+  margin-right: 4px;
+  color: #006ff2;
+}
+
+.spl-list-box {
+  display: flex;
+}
+
+.bhd-table .tablerow-data {
+  font-size: 13px;
+  text-align: center;
+}
+
+table.seller-price-table {
+  padding-top: 5px;
+  margin-bottom: 50px;
+}
+.bhd-table .table-head {
+  text-align: center;
+}
+
+.bhd-table .table-head:first-child,
+.bhd-table .table-data:first-child {
+  text-align: left !important;
+}
+
+.bhd-table {
+  width: 100%;
+}
+
+.bhd-total {
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: column;
+  display: flex;
+}
+.bhd-total .total-div {
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-right: 86px;
+}
+.bhd-total .total-div-left {
+  width: 200px;
+}
+.bhd-total .total-div-right {
+}
+
+/* BUYERS USER */
+
+.usercard-container {
+  display: flex;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+.usercard {
+  width: 168px;
+  padding: 10px;
+}
+.usercard-img {
+  height: 162px;
+  width: 100%;
+  background: #dcdada;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usercard-img img {
+  width: 70px;
+}
+
+.usercard-name {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.usercard-date {
+  display: flex;
+  font-size: 13px;
+  /* text-align: center; */
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  color: #707070;
+  margin-bottom: 10px;
+}
+.usercard-date > span {
+  margin-left: 3px;
+  color: black;
+}
+.usercard button,
+.usercard a {
+  text-decoration: none;
+  color: white;
+  background: #006ff2;
+  border: none;
+  font-weight: 500;
+  width: 100%;
+  margin-inline: auto;
+  display: inline-flex;
+  height: 30px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+
+@media screen and (max-width:550px){
+  
+.delivery-status {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.connector {
+  width: 2%;
+  height: 84px;
+  background: #e9e6e6;
+  position: relative;
+  top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.log-box .log-line span {
+  margin-left: 2px;
+}
+
+
+
+
+.spl-list-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.spl-list-c {
+  width: 100%;
+}
+
+.tablerow-head {
+  vertical-align: baseline;
+  height: 35px;
+  font-size: 13px;
+  color: #006ff2;
+}
+
+.bhd-total .total-div {
+  padding-right: 14px;
+}
+
+}
